@@ -1,0 +1,35 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Uses Mongoose to Scrape news articles from a site and allows the user to make comments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juarezadolfo/Mongo-News-Scraper.git"
+  },
+  "keywords": [
+    "news",
+    "scraper",
+    "mongoose",
+    "mongodb",
+    "cheerio"
+  ],
+  "author": "azj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juarezadolfo/Mongo-News-Scraper/issues"
+  },
+  "homepage": "https://github.com/juarezadolfo/Mongo-News-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.2",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}
